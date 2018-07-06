@@ -2,7 +2,7 @@
 #set -x
 
 DOCKER_NAME=iwfwebsolutions
-BUILD_NAME=mysql
+BUILD_NAME=mariadb
 GIT_REPO=git@git.iwf.io:docker/iwf-mysql.git
 CODE_BASE=./code
 DEF_PUSHDOCKERREGISTRY=0
@@ -66,8 +66,8 @@ if [[ -n ${DEF_BRANCH} ]]; then
 
   if [ ! -z $PROJECTVERSION ]; then
     BUILD_NUMBER=$PROJECTVERSION
-    # As we build for 5.7 base, we set it explicitly
-    DOCKER_LATEST_TAG=5.7-latest
+    # As we build for 10.2 base, we set it explicitly
+    DOCKER_LATEST_TAG=10.2-latest
   else
     BUILD_NUMBER=${GIT_BRANCH}-$GIT_COMMIT_SHORT
     DOCKER_LATEST_TAG=${GIT_BRANCH}-latest

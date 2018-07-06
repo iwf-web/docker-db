@@ -1,10 +1,10 @@
-FROM mysql:5.7
+FROM mariadb:10.2
 
 MAINTAINER Jens Hassler <j.hassler@iwf.ch>
 
 # Argument variables
 ARG GIT_COMMIT
-ARG GIT_BRANCH=releases/mysql-5.7
+ARG GIT_BRANCH=releases/MARIADB-10.2
 ARG GIT_DIRTY=undefined
 ARG BUILD_CREATOR
 ARG BUILD_NUMBER
