@@ -3,7 +3,8 @@
 
 DOCKER_NAME=iwfwebsolutions
 BUILD_NAME=mysql
-GIT_REPO=git@git.iwf.io:docker/iwf-mysql.git
+LATEST_TAG=5.7-latest
+GIT_REPO=git@git.iwf.io:docker/iwf-db.git
 CODE_BASE=./code
 DEF_PUSHDOCKERREGISTRY=0
 
@@ -66,8 +67,7 @@ if [[ -n ${DEF_BRANCH} ]]; then
 
   if [ ! -z $PROJECTVERSION ]; then
     BUILD_NUMBER=$PROJECTVERSION
-    # As we build for 5.7 base, we set it explicitly
-    DOCKER_LATEST_TAG=5.7-latest
+    DOCKER_LATEST_TAG=${LATEST_TAG}
   else
     BUILD_NUMBER=${GIT_BRANCH}-$GIT_COMMIT_SHORT
     DOCKER_LATEST_TAG=${GIT_BRANCH}-latest
