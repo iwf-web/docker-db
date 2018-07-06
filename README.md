@@ -1,11 +1,11 @@
-IWF-MYSQL -- IWF optimized docker images
-========================================
+IWF-DB -- IWF optimized docker DB images: MySQL & MariaDB
+=========================================================
 
 The Master branch should not be used.
 
 Create new releases in the releases/* branches.
 
-Currently there are two streams:
+Currently there are these streams:
 
 
 * releases/MYSQL-5.6     => iwfwebsolutions/mysql:5.6-latest
