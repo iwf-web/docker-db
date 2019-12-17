@@ -3,7 +3,7 @@
 
 DOCKER_NAME=iwfwebsolutions
 BUILD_NAME=mariadb
-GIT_REPO=git@git.iwf.io:docker/iwf-mysql.git
+GIT_REPO=https://github.com/iwf-web/docker-db.git
 CODE_BASE=./code
 DEF_PUSHDOCKERREGISTRY=0
 
