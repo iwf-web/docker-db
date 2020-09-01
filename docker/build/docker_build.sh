@@ -66,8 +66,7 @@ if [[ -n ${DEF_BRANCH} ]]; then
 
   if [ ! -z $PROJECTVERSION ]; then
     BUILD_NUMBER=$PROJECTVERSION
-    # As we build for 10.2 base, we set it explicitly
-    DOCKER_LATEST_TAG=10.2-latest
+    DOCKER_LATEST_TAG=10.5-latest
   else
     BUILD_NUMBER=${GIT_BRANCH}-$GIT_COMMIT_SHORT
     DOCKER_LATEST_TAG=${GIT_BRANCH}-latest
