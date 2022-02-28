@@ -14,3 +14,4 @@ long_query_time=10
 
 tmp_table_size=64M       # default 16M
 max_heap_table_size=64M  # default 16M
+
