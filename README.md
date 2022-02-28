@@ -75,8 +75,8 @@ long_query_time=10
 tmp_table_size=64M       # default 16M
 max_heap_table_size=64M  # default 16M
 
-# set sql_mode without ONLY_FULL_GROUP_BY -- this option may be incompatible with Doctrine < 2.6
-sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION"
+# set sql_mode without ONLY_FULL_GROUP_BY
+sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
 ```
 
 ## Extension points (change or extend configuration)
