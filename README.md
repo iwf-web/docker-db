@@ -3,7 +3,7 @@
 
 ## Overview
 
-This is a Docker base image for a MySQL 5.7 container.
+This is a Docker base image for a MySQL 8.0 container.
 
 It's a vital part of the IWF application stack.
 
@@ -14,19 +14,19 @@ See our [Symfony Vagrant Docker Example Project](https://github.com/iwf-web/symf
 
 ## Links
 
-The image is built weekly based on the official image `mysql:5.7`.
+The image is built weekly based on the official image `mysql:8.0`.
 
 It's available here: https://hub.docker.com/repository/docker/iwfwebsolutions/mysql
 
-You should always use the tag: `iwfwebsolutions/mysql:5.7-latest`
+You should always use the tag: `iwfwebsolutions/mysql:8.0-latest`
 
 
 ## Versions
 
-The X part of the version number `5.7-X` is always increased when we update the image configuration (e.g. config files).
+The X part of the version number `8.0-X` is always increased when we update the image configuration (e.g. config files).
 
 It is NOT an indication to the patch level of the base image. It's **always** the **latest** MySQL image of the supplied version, 
-currently only `5.7`.
+currently only `8.0`.
 
 See the CHANGELOG to find out the details.
 
