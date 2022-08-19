@@ -1,5 +1,8 @@
 # Changelog
 
+`8.0-2` (2022-08-19)
+- increase sort_buffer_size
+
 `8.0-1` (2022-02-28)
 - first 8.0 release
 

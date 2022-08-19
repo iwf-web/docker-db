@@ -7,7 +7,7 @@ innodb_buffer_pool_instances=1 # default 8 (is only used if buffer_pool_size > 1
 skip_name_resolve=On
 
 join_buffer_size=512K    # default 256k
-sort_buffer_size=512K    # default 256k
+sort_buffer_size=1M      # default 256k
 
 slow_query_log=On
 long_query_time=10
