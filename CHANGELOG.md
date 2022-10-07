@@ -1,5 +1,8 @@
 # Changelog
 
+`8.0-3` (2022-10-07)
+- disable binary logging in MySQL 8
+
 `8.0-2` (2022-08-19)
 - increase sort_buffer_size
 
