@@ -12,7 +12,7 @@ ARG TIMEZONE=Europe/Zurich
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Defualt values for environment vars (should be the same in each project)
+# Default values for environment vars (should be the same in each project)
 ENV MYSQL_DATABASE=appDb
 ENV MYSQL_USER=uDb
 
@@ -31,3 +31,5 @@ COPY ./assets/ /
 # Set time zone
 RUN rm /etc/localtime && \
     ln -s /usr/share/zoneinfo/${TIMEZONE} /etc/localtime
+
+USER 999:999

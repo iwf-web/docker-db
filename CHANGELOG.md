@@ -1,5 +1,8 @@
 # Changelog
 
+`8.0-4` (2023-10-27)
+- by default run as 'mysql' user (uid 999)
+
 `8.0-3` (2022-10-07)
 - disable binary logging in MySQL 8
 
