@@ -1,5 +1,8 @@
 # Changelog
 
+`8.0-6` (2023-12-20)
+- enable multi platform build
+
 `8.0-5` (2023-10-27)
 - by default run as 'mysql' user (uid 999)
 
