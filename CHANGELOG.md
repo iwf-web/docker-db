@@ -1,5 +1,8 @@
 # Changelog
 
+`10.6-2` (2023-12-21)
+- enable multi platform build
+
 `10.6` (2023-10-27)
 - update to release 10.6
 
