@@ -24,7 +24,6 @@ LABEL io.web-solutions.git-branch=$GIT_BRANCH \
     io.web-solutions.build-creator=$BUILD_CREATOR \
     io.web-solutions.build-number=$BUILD_NUMBER
 
-
 # COPY our config
 COPY ./assets/ /
 
@@ -32,4 +31,8 @@ COPY ./assets/ /
 RUN rm /etc/localtime && \
     ln -s /usr/share/zoneinfo/${TIMEZONE} /etc/localtime
 
+# Remove unneeded packages, ensure software is up2date, then remove Oracle Linux package manager
+RUN rm -f /bin/curl && microdnf upgrade && microdnf remove microdnf
+
+# Change to User 999
 USER 999:999

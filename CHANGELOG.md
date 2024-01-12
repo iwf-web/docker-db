@@ -1,5 +1,8 @@
 # Changelog
 
+`8.0-7` (2024-01-12)
+- run software update on build, remove curl
+
 `8.0-6` (2023-12-20)
 - enable multi platform build
 
