@@ -31,7 +31,8 @@ COPY ./assets/ /
 RUN rm /etc/localtime && \
     ln -s /usr/share/zoneinfo/${TIMEZONE} /etc/localtime
 
-# Remove unneeded packages, ensure software is up2date, then remove Oracle Linux package manager
+# Remove unneeded packages (inlucding Python), ensure software is up2date, then remove Oracle Linux package manager
+RUN microdnf remove python39-setuptools && microdnf remove python39-pip python39
 RUN rm -f /bin/curl && microdnf upgrade && microdnf remove microdnf
 
 # Change to User 999

@@ -1,5 +1,8 @@
 # Changelog
 
+`8.0-8` (2024-02-06)
+- remove python39 on build (minimizing attack vector)
+
 `8.0-7` (2024-01-12)
 - run software update on build, remove curl
 
