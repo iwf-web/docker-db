@@ -1,5 +1,8 @@
 # Changelog
 
+`8.0-9` (2024-09-92)
+- remove the removal of python39 (not installed anymore in base image)
+
 `8.0-8` (2024-02-06)
 - remove python39 on build (minimizing attack vector)
 
