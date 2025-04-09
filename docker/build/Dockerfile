@@ -1,10 +1,10 @@
-FROM mariadb:10.6
+FROM mariadb:11.4
 
 MAINTAINER Jens Hassler <j.hassler@iwf.ch>
 
 # Argument variables
 ARG GIT_COMMIT
-ARG GIT_BRANCH=releases/MARIADB-10.6
+ARG GIT_BRANCH=releases/MARIADB-11.4
 ARG GIT_DIRTY=undefined
 ARG BUILD_CREATOR
 ARG BUILD_NUMBER

@@ -1,5 +1,8 @@
 # Changelog
 
+`11.4` (2025-04-09)
+- update to release 11.4
+
 `10.6-2` (2023-12-21)
 - enable multi platform build
 
