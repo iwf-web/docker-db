@@ -1,5 +1,8 @@
 # Changelog
 
+`8.4-1` (2024-09-92)
+- first release of MYSQL 8.4
+
 `8.0-9` (2024-09-92)
 - remove the removal of python39 (not installed anymore in base image)
 
