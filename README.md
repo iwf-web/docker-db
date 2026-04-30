@@ -7,6 +7,7 @@ See details in the README.md of following branches:
 
 - [releases/MYSQL-5.7](https://github.com/iwf-web/docker-db/tree/releases/MYSQL-5.7) (Support until 10/2023)
 - [releases/MYSQL-8.0](https://github.com/iwf-web/docker-db/tree/releases/MYSQL-8.0) (Support until 04/2026)
+- [releases/MYSQL-8.4](https://github.com/iwf-web/docker-db/tree/releases/MYSQL-8.4) (LTS, Support until 04/2032)
 - [releases/MARIADB-10.2](https://github.com/iwf-web/docker-db/tree/releases/MARIADB-10.2) (Support until 05/2022)
 - [releases/MARIADB-10.5](https://github.com/iwf-web/docker-db/tree/releases/MARIADB-10.5) (Support until 06/2025)
 - [releases/MARIADB-11.4](https://github.com/iwf-web/docker-db/tree/releases/MARIADB-11.4) (Support until 05/2029)
