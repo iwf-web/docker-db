@@ -3,7 +3,7 @@
 
 DOCKER_NAME=iwfwebsolutions
 BUILD_NAME=mysql
-LATEST_TAG=8.4-latest
+LATEST_TAG=9.7-latest
 GIT_REPO=https://github.com/iwf-web/docker-db.git
 CODE_BASE=./code
 DEF_PUSHDOCKERREGISTRY=0

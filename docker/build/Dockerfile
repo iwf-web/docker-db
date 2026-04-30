@@ -1,10 +1,10 @@
-FROM mysql:8.4
+FROM mysql:9.7
 
-MAINTAINER Jens Hassler <j.hassler@iwf.ch>
+LABEL maintainer="Jens Hassler <j.hassler@iwf.ch>"
 
 # Argument variables
 ARG GIT_COMMIT
-ARG GIT_BRANCH=releases/mysql-8.4
+ARG GIT_BRANCH=releases/mysql-9.7
 ARG GIT_DIRTY=undefined
 ARG BUILD_CREATOR
 ARG BUILD_NUMBER

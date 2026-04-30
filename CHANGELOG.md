@@ -1,5 +1,8 @@
 # Changelog
 
+`9.7-1` (2026-04-30)
+- first release of MYSQL 9.7 (LTS)
+
 `8.4-1` (2024-09-92)
 - first release of MYSQL 8.4
 
